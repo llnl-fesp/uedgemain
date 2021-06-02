@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: llnl-fesp/uedgemain@v1
+        uses: llnl-fesp/uedgemain@v2
         with:
           who-to-greet: 'Bill Meyer'
       # Use the output from the `hello` step
